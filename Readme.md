@@ -22,4 +22,4 @@ Note: As long as there are no files inside the directories `src/express` and/or 
 * Express runs on `127.0.0.1:3000`
 * Vue runs on `127.0.0.1:8080`
 * MongoDB rund on host `db` (not localhost)\
-  also there is no exposed port to the host machine but you could change that by commenting out the appropriate lines in the `docker-compose.yml` file and run `docker-compose up` afterwards
+also there is no exposed port to the host machine but you could change that by commenting out the appropriate lines in the `docker-compose.yml` file and run `docker-compose up` afterwards
