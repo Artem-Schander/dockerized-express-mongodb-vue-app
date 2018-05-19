@@ -16,9 +16,11 @@ To start your application or to create a new one you just need to run the follow
 $ docker-compose up [--build]
 ```
 
-Note: As long as there are no files inside the directories `src/express` and/or `src/vue` the `docker-compose up` command will create blank projects via the corresponding cli tool
+__Note__: As long as there are no files inside the directories `src/express` and/or `src/vue` the `docker-compose up` command will create blank projects via the corresponding cli tool
 
-### Technical infos
+***
+
+#### Technical infos
 * Express runs on `127.0.0.1:3000`
 * Vue runs on `127.0.0.1:8080`
 * MongoDB rund on host `db` (not localhost)\
